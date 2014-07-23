@@ -32,8 +32,14 @@ body {
     }
 }
 .menu-block-left {
+    width: 130px;
     float: left;
     box-shadow: 0px 0px 4px -2px #000000;
+    img {
+        float: left;
+        margin-left: 15px;
+        margin-top: 7px;
+    }
 }
 .menu-block-right {
     float: right;
@@ -61,21 +67,31 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    // background-color: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.20);
     p { 
-        margin-top: 220px;
-        margin-left: 30px;
-        font-size: 8.0em;
+        margin-top: 130px;
+        margin-bottom: 100px;
+        margin-left: 58px;
+        font-size: 3.0em;
         color: #ffffff;
         text-shadow: 0px 0px 20px #000000;
-    } .header-title {
+    } .two {
+        margin-top: 16px;
+        margin-left: 57px;
+        margin-bottom: 0px;
+        font-size: 4.3em;
+    } .three {
         margin-top: 0px;
-        margin-left: 30px;
-        margin-right: 30px;
-        color: #ffffff;
-        padding-bottom: 20px;
-        text-shadow: 0px 0px 20px #000000;
-        font-size: 8.0em;
+        margin-left: 54px;
+        margin-bottom: 0px;
+        font-size: 5.5em;
+    }  .four {
+        margin-left: 52px;
+        margin-top: -29px;
+        margin-bottom: 0px;
+        font-family: "Amatic SC";
+        font-size: 12.0em;
+        letter-spacing: 17px;
     }
 }
 .title-block {
@@ -85,6 +101,8 @@ body {
     line-height: 450px;
     font-size: 4.5em;
     text-align: center;
+    letter-spacing: 8px;
+    word-spacing: 20px;
     font-family: "Amatic SC";
 }
 .portfolio-projects {
@@ -167,11 +185,11 @@ body {
     margin-bottom: 15px;
 }
 .view-live-button {
-    width: 90px;
+    width: 100px;
     margin-right: 10px;
 }
 .github-button {
-    width: 140px;
+    width: 150px;
 }
 .project-button:hover {
     background-color: rgba(26, 158, 120, 1.0);
@@ -179,7 +197,7 @@ body {
 
 .about-squares {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-image: url("http://www.wallpapers4desktop.net/_ph/19/2/839779229.jpg");
     background-size: cover;
     background-repeat:repeat-y;
@@ -210,16 +228,17 @@ body {
 }
 .bio {
     background-color: rgba(0, 0, 0, 0.85);
-    height: 399px;
+    height: 449px;
 }
 .factorial {
     margin-top: 3px;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 398px;
+    height: 448px;
 }
 .skills {
     background-color: rgba(0, 0, 0, 0.85);
-    height: 800px;
+    height: 900px;
+    position: relative;
 }
 .bio:hover, .factorial:hover {
     background-color: rgba(32, 197, 150, 0.92);
@@ -249,6 +268,19 @@ body {
             margin-top: 8px;
             padding-bottom: 5px;
             border-bottom: 1px solid #ffffff;
+        } .pdf-button {
+            position: absolute;
+            bottom: 30px;
+            width: 130px;
+            left: 222px;
+            line-height: 35px;
+            height: 35px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+            border-radius: 4px;
+            color: #ffffff;
+        } .pdf-button:hover {
+            background-color: rgba(26, 158, 120, 1.0);
         }
     }
 }
