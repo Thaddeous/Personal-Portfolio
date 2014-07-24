@@ -26,6 +26,7 @@ body {
     width: 110px; 
     height: 45px;
     line-height: 45px;
+    transition: all 0.1s ease-in-out;
     p {
         text-align: center;
         color: #ffffff;
@@ -70,8 +71,8 @@ body {
     background-color: rgba(0, 0, 0, 0.20);
     p { 
         margin-top: 130px;
-        margin-bottom: 90px;
         margin-left: 55px;
+        margin-bottom: 90px;
         font-size: 4.0em;
         color: #ffffff;
         text-shadow: 0px 0px 10px #000000;
@@ -103,28 +104,90 @@ body {
 }
 .portfolio-projects {
     width: 100%;
-    height: auto;
+    height: 1615px;
+    background-image: url("http://www.wallpapers4desktop.net/_ph/19/2/839779229.jpg");
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-position:top center;
+    background-attachment:fixed;
 }
 .project {
     float: left;
     height: 400px;
     position: relative;
 }
-.project-one, .project-three, .project-four, .project-six, .project-seven, .project-nine  {
-    width: 31.5%;
-    background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
+.project-one {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
     background-size: cover;
+    width: 60.12%;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+.project-two {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
+    background-size: cover; 
+    width: 39.5%;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 5px;
 }
-.project-two, .project-five, .project-eight {
-    width: 36.3%;
-    background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
-    margin-bottom: 2px;
+.project-three {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
     background-size: cover;
-    margin-left: 5px;
+    width: 49.81%;
+    margin-left: 0px;
     margin-right: 5px;
+    margin-bottom: 5px; 
 }
-
+.project-four {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at24237AM.png");
+    background-size: cover; 
+    width: 49.81%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+.project-five {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
+    background-size: cover; 
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.project-six {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
+    background-size: cover;
+    width: 39.28%;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+.project-seven {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
+    background-size: cover; 
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+.project-eight {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
+    background-size: cover;
+    width: 39.5%;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+.project-nine {
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
+    background-size: cover; 
+    width: 60.12%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
 .project-title {
     p { 
         margin-top: 30px;
@@ -150,7 +213,8 @@ body {
     bottom: 0;
 }
 .light-overlay:hover {
-    background-color: rgba(32, 197, 150, 0.92);
+    background-color: rgba(32, 197, 150, 0.94);
+    transition: all 0.1s ease-in-out;
     .project-text-container {
         display: block;
     }
@@ -183,15 +247,16 @@ body {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+.project-button:hover {
+    background-color: rgba(26, 158, 120, 1.0);
+    transition: all 0.1s ease-in-out;
+}
 .view-live-button {
     width: 100px;
     margin-right: 10px;
 }
 .github-button {
     width: 150px;
-}
-.project-button:hover {
-    background-color: rgba(26, 158, 120, 1.0);
 }
 
 .about-squares {
@@ -241,6 +306,7 @@ body {
 }
 .bio:hover, .factorial:hover {
     background-color: rgba(32, 197, 150, 0.92);
+    transition: all 0.1s ease-in-out;
     .about-main-title {
         display: none;
     } .about-detail {
@@ -260,6 +326,7 @@ body {
 }
 .skills:hover {
     background-color: rgba(32, 197, 150, 0.92);
+    transition: all 0.1s ease-in-out;
     .about-main-title {
         display: none;
     } .about-skills {
@@ -346,6 +413,7 @@ body {
 .contact-icon-container:hover {
     .fa {
         color: #20c596;
+        transition: all 0.1s ease-in-out;
     } p {
         color: #20c596;
         font-size: 1.1em;
@@ -376,6 +444,11 @@ body {
     border-radius: 4px;
     border: 2px solid #ffffff;
 }
+.arrow:hover {
+    color: #20c596;
+    border: 2px solid #20c596;
+    transition: all 0.1s ease-in-out;
+}        
 #projects, #contact, #about {
     padding-top: 80px;
 }
