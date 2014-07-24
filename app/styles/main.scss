@@ -1,6 +1,10 @@
 // bower:scss
 // endbower
-
+//    __  ___     _        __ __________  _____ 
+//   /  |/  /__ _(_)__    / // /_  __/  |/  / / 
+//  / /|_/ / _ `/ / _ \  / _  / / / / /|_/ / /__
+// /_/  /_/\_,_/_/_//_/ /_//_/ /_/ /_/  /_/____/
+//
 body {
     font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
@@ -14,6 +18,11 @@ body {
         list-style: none;
     } 
 }
+//    __ __            __       
+//   / // /__ ___ ____/ /__ ____
+//  / _  / -_) _ `/ _  / -_) __/
+// /_//_/\__/\_,_/\_,_/\__/_/   
+//                          
 .header {
     position: fixed;
     top: 0;
@@ -91,6 +100,12 @@ body {
         letter-spacing: 19px;
     }
 }
+//    ___             _         __    
+//   / _ \_______    (_)__ ____/ /____
+//  / ___/ __/ _ \  / / -_) __/ __(_-<
+// /_/  /_/  \___/_/ /\__/\__/\__/___/
+//              |___/                
+//
 .title-block {
     clear: both;
     width: 100%;
@@ -104,65 +119,69 @@ body {
 }
 .portfolio-projects {
     width: 100%;
-    height: 1615px;
-    background-image: url("http://www.wallpapers4desktop.net/_ph/19/2/839779229.jpg");
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-position:top center;
-    background-attachment:fixed;
 }
 .project {
     float: left;
     height: 400px;
     position: relative;
+    margin-bottom: 20px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 .project-one {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
     background-size: cover;
-    width: 60.12%;
+    width: 59.05%;
     margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px; 
+    margin-right: 20px;
+    border-right: 1px solid #cccccc;
+    border-radius: 0px 4px 4px 0px;
 }
 .project-two {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
     background-size: cover; 
-    width: 39.5%;
+    width: 39.4%;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    border-left: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
 }
 .project-three {
-    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at11426PM.png");
     background-size: cover;
-    width: 49.81%;
+    width: 49.22%;
     margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px; 
+    margin-right: 20px; 
+    border-right: 1px solid #cccccc;
+    border-radius: 1px 4px 4px 1px;
 }
 .project-four {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at24237AM.png");
     background-size: cover; 
-    width: 49.81%;
+    width: 49.22%;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    border-left: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
 }
 .project-five {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
     background-size: cover; 
     width: 30%;
     margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 20px;
+    border-right: 1px solid #cccccc;
+    border-radius: 0px 4px 4px 0px;
 }
 .project-six {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
     background-size: cover;
-    width: 39.28%;
+    width: 36.92%;
     margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px; 
+    margin-right: 20px; 
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-radius: 4px 4px 4px 4px;
 }
 .project-seven {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
@@ -170,23 +189,26 @@ body {
     width: 30%;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    border-left: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
 }
 .project-eight {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
     background-size: cover;
-    width: 39.5%;
+    width: 39.2%;
     margin-left: 0px;
-    margin-right: 5px;
-    margin-bottom: 5px; 
+    margin-right: 20px; 
+    border-right: 1px solid #cccccc;
+    border-radius: 0px 4px 4px 0px;
 }
 .project-nine {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123443AM.png");
     background-size: cover; 
-    width: 60.12%;
+    width: 59.25%;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    border-left: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
 }
 .project-title {
     p { 
@@ -213,6 +235,7 @@ body {
     bottom: 0;
 }
 .light-overlay:hover {
+    border-radius: 2px;
     background-color: rgba(32, 197, 150, 0.94);
     transition: all 0.1s ease-in-out;
     .project-text-container {
@@ -241,14 +264,20 @@ body {
 .project-button {
     display: inline-block;
     height: 30px;
+    line-height: 30px;
     border: 2px solid #ffffff;
     border-radius: 4px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
+    letter-spacing: -1.5px;
+    font-size: 1.05em;
+    background-color: rgba(255, 255, 255, 0.87);
+    color: #20c596;
 }
 .project-button:hover {
     background-color: rgba(26, 158, 120, 1.0);
+    color: #ffffff;
     transition: all 0.1s ease-in-out;
 }
 .view-live-button {
@@ -258,7 +287,11 @@ body {
 .github-button {
     width: 150px;
 }
-
+//    ___   __             __    __  ____    
+//   / _ | / /  ___  __ __/ /_  /  |/  (_)__ 
+//  / __ |/ _ \/ _ \/ // / __/ / /|_/ / / _ \
+// /_/ |_/_.__/\___/\_,_/\__/ /_/  /_/_/\___/
+//
 .about-squares {
     width: 100%;
     height: 900px;
@@ -284,20 +317,24 @@ body {
 }
 .about-left-hand {
     float: left;
-    width: 59.8%;
+    width: 60%;
 }
 .about-right-hand {
     float: right;
-    width: 39.8%;
+    width: 40%;
 }
 .bio {
     background-color: rgba(0, 0, 0, 0.85);
-    height: 448px;
+    height: 440px;
+    margin-right: 20px;
+    border-radius: 0px 0px 4px 0px;
 }
 .factorial {
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 447px;
+    height: 440px;
+    border-radius: 0px 4px 0px 0px;
 }
 .skills {
     background-color: rgba(0, 0, 0, 0.85);
@@ -365,6 +402,11 @@ body {
     font-size: 1.3em;
     margin-bottom: 10px;
 }
+//   _____          __           __ 
+//  / ___/__  ___  / /____ _____/ /_
+// / /__/ _ \/ _ \/ __/ _ `/ __/ __/
+// \___/\___/_//_/\__/\_,_/\__/\__/
+//
 .contact-container {
     position: relative;
     width: 100%;
@@ -452,3 +494,8 @@ body {
 #projects, #contact, #about {
     padding-top: 80px;
 }
+//    __  ___       ___        ____               _       
+//   /  |/  /__ ___/ (_)__ _  / __ \__ _____ ____(_)__ ___
+//  / /|_/ / -_) _  / / _ `/ / /_/ / // / -_) __/ / -_|_-<
+// /_/  /_/\__/\_,_/_/\_,_/  \___\_\_,_/\__/_/ /_/\__/___/
+//  
