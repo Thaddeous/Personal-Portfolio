@@ -675,9 +675,26 @@ body {
     .skills {
         height: 950px;
     }
+    .contact-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+        text-align: center;
+        .fa {
+            font-size: 3.5em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+// 525px Media Query Ends
+// ======================
 
 
-
+@media screen and (max-width:400px) {
     .dark-overlay {
         position: absolute;
         left: 0;
@@ -708,52 +725,6 @@ body {
             padding-right: 5px;
         }
     }
-}
-// 525px Media Query Ends
-// ======================
-
-
-@media screen and (max-width:400px) {
-    // .title-block {
-    //     font-size: 3.2em;
-    //     text-align: center;
-    //     letter-spacing: 7px;
-    //     word-spacing: 15px;
-    // }
-    // .detail-description {
-    //     font-size: 1.0em;
-    // }
-    // .menu-block {
-    //     width: 25%;
-    // }
-    // .menu-block-right {
-    //     float: left;
-    // }
-    // .bio {
-    //     height: 620px;
-    //     line-height: 1.35;
-    // }
-    // .factorial {
-    //     height: 580px;
-    //     line-height: 1.35;
-    // }
-    // .skills {
-    //     height: 950px;
-    // }
-    // .contact-overlay {
-    //     position: absolute;
-    //     left: 0;
-    //     right: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     background-color: rgba(0, 0, 0, 0.40);
-    //     text-align: center;
-    //     .fa {
-    //         font-size: 3.5em;
-    //         padding-left: 10px;
-    //         padding-right: 10px;
-    //     }
-    // }
 }
 // 400px Media Query Ends
 // ======================
