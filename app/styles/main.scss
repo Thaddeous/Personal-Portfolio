@@ -30,6 +30,7 @@ body {
     width: 100%;
     height: 45px;
     background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 1px 2px -1px #000000;
 }
 .menu-block {
     width: 110px; 
@@ -58,6 +59,7 @@ body {
     width: 100%;
     height: 800px;
     background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
+    box-shadow: 0px 2px 5px -1px #000000;
     background-size: cover;
     background-repeat:repeat-y;
     background-position:top center;
@@ -116,14 +118,15 @@ body {
 }
 .project {
     height: 420px;
-    width: 49.29%;
+    width: 48.25%;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .project-one, .project-three, .project-five, .project-seven, .project-nine {
     float: left;
     border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 2px 5px -1px #000000;
     .light-overlay {
         position: absolute;
         left: 0;
@@ -144,6 +147,7 @@ body {
 .project-two, .project-four, .project-six, .project-eight, .project-ten {
     float: right;
     border-radius: 4px 0px 0px 4px;
+    box-shadow: 0px 2px 5px -1px #000000;
     .light-overlay {
         position: absolute;
         left: 0;
@@ -292,16 +296,18 @@ body {
 }
 .bio {
     background-color: rgba(0, 0, 0, 0.85);
-    height: 460px;
-    margin-right: 20px;
+    height: 480px;
+    margin-right: 50px;
     border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 2px 5px -1px #000000;
 }
 .factorial {
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 460px;
+    height: 440px;
     border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 2px 5px -1px #000000;
 }
 .bio:hover, .factorial:hover {
     border-radius: 0px 4px 4px 0px;
@@ -331,8 +337,9 @@ body {
 }
 .skills {
     border-radius: 4px 0px 0px 4px;
+    box-shadow: 0px 2px 5px -1px #000000;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 940px;
+    height: 970px;
     position: relative;
 }
 .about-skills {
@@ -371,7 +378,7 @@ body {
         } a {
             display: inline-block;
         } .pdf-button-outer {
-            margin: 20px auto 0 auto;
+            margin: 45px auto 0 auto;
             width: 96px;
             padding-top: 10px;
             padding-bottom: 8px;
@@ -404,6 +411,7 @@ body {
     position: relative;
     width: 100%;
     height: 715px;
+    box-shadow: 0px 2px 5px -1px #000000;
     background-image: url("http://travellife.com.ua/wp-content/uploads/2012/03/241881_derevo_derevya_doroga_dorogi_vecher_nebo_put_puti__1920x1200_www.GdeFon.ru_.jpg");
     background-size: cover;
     background-repeat:repeat-y;
@@ -499,7 +507,7 @@ body {
         }
     }
     .project-nine {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .about-left-hand {
         width: 100%;
@@ -524,10 +532,11 @@ body {
     }
     .skills {
         height: 800px;
+        border-radius: 0px 0px 0px 0px;
     }
     .skills:hover {
+        border-radius: 0px 0px 0px 0px;
         .about-skills {
-            border-radius: 0px 0px 0px 0px;
             padding-left: 50px;
             padding-right: 50px;
         }
@@ -707,7 +716,7 @@ body {
         line-height: 1.35;
     }
     .skills {
-        height: 100px;
+        height: 1000px;
     }
     .dark-overlay {
         position: absolute;
@@ -721,6 +730,7 @@ body {
         } .one {
             margin-top: 50px;
         } .four {
+            margin-left: 17px;
             margin-top: 27px;
             font-size: 3.8em;
         }
