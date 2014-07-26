@@ -42,14 +42,8 @@ body {
     }
 }
 .menu-block-left {
-    width: 130px;
     float: left;
     box-shadow: 0px 0px 4px -2px #000000;
-    img {
-        float: left;
-        margin-left: 15px;
-        margin-top: 7px;
-    }
 }
 .menu-block-right {
     float: right;
@@ -128,8 +122,7 @@ body {
 }
 
 .project-one, .project-three, .project-five, .project-seven, .project-nine {
-    float: left; 
-    margin-right: 20px;
+    float: left;
     border-radius: 0px 4px 4px 0px;
     .light-overlay {
         position: absolute;
@@ -141,7 +134,7 @@ body {
         border-radius: 0px 4px 4px 0px;
     } .light-overlay:hover {
         background-color: rgba(32, 197, 150, 0.97);
-        transition: all 0.15s ease-in-out;
+        transition: all 0.1s ease-in-out;
         .project-text-container {
             display: block;
         }
@@ -161,7 +154,7 @@ body {
         border-radius: 4px 0px 0px 4px;
     } .light-overlay:hover {
         background-color: rgba(32, 197, 150, 0.97);
-        transition: all 0.15s ease-in-out;
+        transition: all 0.1s ease-in-out;
         .project-text-container {
             display: block;
         }
@@ -169,11 +162,11 @@ body {
 }
 
 .project-one {
-    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13552AM.png");
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at25540PM.png");
     background-size: cover;
 }
 .project-two {
-    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at55829PM.png");
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123607AM.png");
     background-size: cover; 
 }
 .project-three {
@@ -201,7 +194,7 @@ body {
     background-size: cover;
 }
 .project-nine {
-    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at60710PM.png");
+    background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at41300AM.png");
     background-size: cover; 
     margin-bottom: 0px;
 }
@@ -274,12 +267,6 @@ body {
 //
 .about-squares {
     width: 100%;
-    height: 940px;
-    background-image: url("http://www.wallpapers4desktop.net/_ph/19/2/839779229.jpg");
-    background-size: cover;
-    background-repeat:repeat-y;
-    background-position:top center;
-    background-attachment:fixed;
     .about-main-title {
         color: #ffffff;
         padding-top: 50px;
@@ -295,35 +282,31 @@ body {
         color: #ffffff;
     }
 }
+// ============================
+//       About & Factorial
+//        Left Hand Side
+// ============================
 .about-left-hand {
     float: left;
     width: 60%;
-}
-.about-right-hand {
-    float: right;
-    width: 40%;
 }
 .bio {
     background-color: rgba(0, 0, 0, 0.85);
     height: 460px;
     margin-right: 20px;
-    border-radius: 0px 0px 4px 0px;
+    border-radius: 0px 4px 4px 0px;
 }
 .factorial {
     margin-top: 20px;
     margin-right: 20px;
     background-color: rgba(0, 0, 0, 0.85);
     height: 460px;
-    border-radius: 0px 4px 0px 0px;
-}
-.skills {
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 940px;
-    position: relative;
+    border-radius: 0px 4px 4px 0px;
 }
 .bio:hover, .factorial:hover {
+    border-radius: 0px 4px 4px 0px;
     background-color: rgba(32, 197, 150, 0.92);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     .about-main-title {
         display: none;
     } .about-detail {
@@ -338,12 +321,27 @@ body {
         text-align: left;
     }
 }
+// ============================
+//            Skills
+//       Right Hand Side
+// ============================
+.about-right-hand {
+    float: right;
+    width: 40%;
+}
+.skills {
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 940px;
+    position: relative;
+}
 .about-skills {
     display: none;
 }
 .skills:hover {
+    border-radius: 4px 0px 0px 4px;
     background-color: rgba(32, 197, 150, 0.92);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     .about-main-title {
         display: none;
     } .about-skills {
@@ -356,23 +354,31 @@ body {
         .skills-title {
             font-size: 1.5em;
             margin-bottom: 50px;
+        } .position {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        } .date {
+            font-size: 1.1em;
         } .skill { 
             margin-bottom: 50px;
             margin-top: 10px;
             padding-bottom: 10px;
             border-bottom: 1px solid #ffffff;
-            font-size: 1.1em;
+            font-size: 1.0em;
+        } .last-skill {
+            margin-bottom: -15px;
+            border-bottom: 0px solid #ffffff;
+        } a {
+            display: inline-block;
         } .pdf-button-outer {
-            position: absolute;
-            bottom: 30px;
-            left: 222px;
+            margin: 20px auto 0 auto;
+            width: 96px;
             padding-top: 10px;
             padding-bottom: 8px;
             padding-left: 8px;
             padding-right: 8px;
-            margin: 0 auto;
-            border-radius: 4px;
             color: #ffffff;
+            border-radius: 4px;
             border: 2px solid #ffffff;
         } .my-name {
             width: 90px;
@@ -388,10 +394,6 @@ body {
             background-color: rgba(26, 158, 120, 1.0);
         }
     }
-}
-.position {
-    font-size: 1.3em;
-    margin-bottom: 10px;
 }
 //   _____          __           __ 
 //  / ___/__  ___  / /____ _____/ /_
@@ -446,7 +448,7 @@ body {
 .contact-icon-container:hover {
     .fa {
         color: #20c596;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.1s ease-in-out;
     } p {
         color: #20c596;
         font-size: 1.1em;
@@ -456,8 +458,10 @@ body {
 }
 .address {
     position: absolute;
-    bottom: 45px;
-    left: 41.5%;
+    width: 100%;
+    bottom: 30px;
+    left: auto;
+    right: auto;
     p {
         font-size: 1.1em;
     }
@@ -486,3 +490,206 @@ body {
 //  / /|_/ / -_) _  / / _ `/ / /_/ / // / -_) __/ / -_|_-<
 // /_/  /_/\__/\_,_/_/\_,_/  \___\_\_,_/\__/_/ /_/\__/___/
 //  
+@media screen and (max-width:1170px) {
+    .project {
+        width: 100%;
+        border-radius: 0px;
+        .light-overlay {
+            border-radius: 0px;
+        }
+    }
+    .project-nine {
+        margin-bottom: 20px;
+    }
+    .about-left-hand {
+        width: 100%;
+    }
+    .bio {
+        height: 460px;
+        margin-right: 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .factorial {
+        margin-right: 0px;
+        height: 460px;
+        border-radius: 0px 0px 0px 0px;
+        margin-bottom: 20px;
+    }
+    .bio:hover, .factorial:hover {
+        border-radius: 0px 0px 0px 0px;
+    }
+    .about-right-hand {
+        float: left;
+        width: 100%;
+    }
+    .skills {
+        height: 800px;
+    }
+    .skills:hover {
+        .about-skills {
+            border-radius: 0px 0px 0px 0px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    .large {
+        font-size: 5.0em;
+    }
+}
+// 1170px Media Query Ends
+// ======================
+
+@media screen and (max-width:800px) {
+    .dark-overlay {
+        p {
+            font-size: 1.5em;
+            padding-left: 20px;
+            padding-right: 20px;
+        } .one {
+            margin-top: 70px;
+            margin-bottom: 0px;
+        }  .four {
+            margin-top: 42px;
+            margin-bottom: 0px;
+            font-family: "Amatic SC";
+            font-size: 5.0em;
+            letter-spacing: 20px;
+        }
+    }
+    .large {
+        font-size: 4.5em;
+    }
+}
+// 800px Media Query Ends
+// ======================
+
+
+
+
+@media screen and (max-width:725px) {
+    .project {
+        height: 430px;
+    }
+    .project-one {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13303AM-1.png");
+        background-size: cover;
+    }
+    .project-two {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123414AM.png");
+        background-size: cover; 
+    }
+    .project-three {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at11326PM.png");
+        background-size: cover;
+    }
+    .project-four {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at74550PM.png");
+        background-size: cover;
+    }
+    .project-five {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at81615PM.png");
+        background-size: cover;
+    }
+    .project-six {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at75312PM.png");
+        background-size: cover;
+    }
+    .project-seven {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at82013PM.png");
+        background-size: cover; 
+    }
+    .project-eight {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at82416PM.png");
+        background-size: cover;
+    }
+    .project-nine {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at75818PM.png");
+        background-size: cover;
+    }
+    .project-ten {
+        background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at80807PM.png");
+        background-size: cover;
+    }
+    .about-details {
+        font-size: 0.93em;
+    }
+    .skills {
+        height: 860px;
+    }
+    .contact-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+        text-align: center;
+        .fa {
+            font-size: 4.0em;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .large {
+        font-size: 3.3em;
+    }
+    .smaller {
+        padding-top: 30px;
+        font-size: 1.7em;
+    }
+    .smallest{
+        padding-top: 8px;
+        margin-bottom: 40px;
+    }
+    .address {
+        bottom: 90px; 
+    }
+}
+// 725px Media Query Ends
+// ======================
+
+
+@media screen and (max-width:525px) {
+    .title-block {
+        font-size: 3.2em;
+        text-align: center;
+        letter-spacing: 7px;
+        word-spacing: 15px;
+    }
+    .detail-description {
+        font-size: 1.0em;
+    }
+    .menu-block {
+        width: 25%;
+    }
+    .menu-block-right {
+        float: left;
+    }
+    .bio {
+        height: 620px;
+        line-height: 1.35;
+    }
+    .factorial {
+        height: 580px;
+        line-height: 1.35;
+    }
+    .skills {
+        height: 950px;
+    }
+    .contact-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+        text-align: center;
+        .fa {
+            font-size: 3.5em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+// 525px Media Query Ends
+// ======================
