@@ -695,6 +695,20 @@ body {
 
 
 @media screen and (max-width:400px) {
+    .project {
+        height: 500px;
+    }
+    .bio {
+        height: 680px;
+        line-height: 1.35;
+    }
+    .factorial {
+        height: 640px;
+        line-height: 1.35;
+    }
+    .skills {
+        height: 100px;
+    }
     .dark-overlay {
         position: absolute;
         left: 0;
