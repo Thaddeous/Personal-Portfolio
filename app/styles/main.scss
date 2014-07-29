@@ -58,12 +58,12 @@ body {
     overflow: hidden;
     width: 100%;
     height: 800px;
-    background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
     box-shadow: 0px 2px 5px -1px #000000;
+    background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
     background-size: cover;
-    background-repeat:repeat-y;
-    background-position:top center;
-    background-attachment:fixed
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: fixed;
 }
 .cool-name {
     margin: 70px auto 0 auto;
@@ -91,6 +91,7 @@ body {
     }  .four {
         margin-top: 10px;
         margin-bottom: 0px;
+        margin-left: 17px;
         font-family: "Amatic SC";
         font-size: 13.0em;
         letter-spacing: 20px;
@@ -122,7 +123,6 @@ body {
     position: relative;
     margin-bottom: 50px;
 }
-
 .project-one, .project-three, .project-five, .project-seven, .project-nine {
     float: left;
     border-radius: 0px 4px 4px 0px;
@@ -143,7 +143,6 @@ body {
         }
     }
 }
-
 .project-two, .project-four, .project-six, .project-eight, .project-ten {
     float: right;
     border-radius: 4px 0px 0px 4px;
@@ -164,7 +163,6 @@ body {
         }
     }
 }
-
 .project-one {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at25540PM.png");
     background-size: cover;
@@ -271,52 +269,69 @@ body {
 //
 .about-squares {
     width: 100%;
-    .about-main-title {
-        color: #ffffff;
-        padding-top: 50px;
-        text-align: center;
-        font-size: 15em;
-    } .about-detail {
-        padding-top: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
-        display: none;
-        text-align: center;
-        font-size: 1.1em;
-        color: #ffffff;
-    }
 }
-// ============================
-//       About & Factorial
-//        Left Hand Side
-// ============================
 .about-left-hand {
     float: left;
     width: 60%;
 }
+.about-right-hand {
+    float: right;
+    width: 40%;
+}
+// ============================
+//      Left Hand Side About
+// ============================
 .bio {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: fixed;
     height: 480px;
     margin-right: 50px;
     border-radius: 0px 4px 4px 0px;
     box-shadow: 0px 2px 5px -1px #000000;
-}
-.factorial {
-    margin-top: 50px;
-    margin-right: 50px;
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 440px;
-    border-radius: 0px 4px 4px 0px;
-    box-shadow: 0px 2px 5px -1px #000000;
-}
-.bio:hover, .factorial:hover {
-    border-radius: 0px 4px 4px 0px;
-    background-color: rgba(32, 197, 150, 0.92);
-    transition: all 0.1s ease-in-out;
-    .about-main-title {
-        display: none;
+    .about-overlay {
+        height: 480px;
+        border-radius: 0px 4px 4px 0px;
+        background-color: rgba(32, 197, 150, 0.87);
     } .about-detail {
         display: block;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        font-size: 1.1em;
+        color: #ffffff;
+    } .detail-title {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    } .about-details {
+        text-align: left;
+    }
+}
+// ============================
+//   Left Hand Side Factorial
+// ============================
+.factorial {
+    background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: fixed;    
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 440px;
+    box-shadow: 0px 2px 5px -1px #000000;
+    border-radius: 0px 4px 4px 0px;
+    .about-overlay {
+        height: 440px;
+        border-radius: 0px 4px 4px 0px;
+        background-color: rgba(32, 197, 150, 0.87);
+    } .about-detail {
+        text-align: center;
+        font-size: 1.1em;
+        color: #ffffff;
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
@@ -328,29 +343,22 @@ body {
     }
 }
 // ============================
-//            Skills
-//       Right Hand Side
+//    Right Hand Side Skills
 // ============================
-.about-right-hand {
-    float: right;
-    width: 40%;
-}
 .skills {
+    background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 970px;
     border-radius: 4px 0px 0px 4px;
     box-shadow: 0px 2px 5px -1px #000000;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 970px;
-    position: relative;
-}
-.about-skills {
-    display: none;
-}
-.skills:hover {
-    border-radius: 4px 0px 0px 4px;
-    background-color: rgba(32, 197, 150, 0.92);
-    transition: all 0.1s ease-in-out;
-    .about-main-title {
-        display: none;
+    .about-overlay {
+        height: 970px;
+        border-radius: 4px 0px 0px 4px;
+        background-color: rgba(32, 197, 150, 0.87);
     } .about-skills {
         display: block;
         text-align: center;
@@ -414,9 +422,9 @@ body {
     box-shadow: 0px 2px 5px -1px #000000;
     background-image: url("http://travellife.com.ua/wp-content/uploads/2012/03/241881_derevo_derevya_doroga_dorogi_vecher_nebo_put_puti__1920x1200_www.GdeFon.ru_.jpg");
     background-size: cover;
-    background-repeat:repeat-y;
-    background-position:top center;
-    background-attachment:fixed;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: fixed;
     color: #ffffff;
 }
 .contact-overlay {
@@ -447,7 +455,7 @@ body {
     margin-bottom: 30px;
 }
 .hide {
-    display: none;
+    color: #ffffff;
 }
 .contact-icon-container {
     display: inline-block;
@@ -457,11 +465,8 @@ body {
     .fa {
         color: #20c596;
         transition: all 0.1s ease-in-out;
-    } p {
-        color: #20c596;
-        font-size: 1.1em;
     } .hide {
-        display: block;  
+        color: #20c596;
     }   
 }
 .address {
@@ -472,6 +477,8 @@ body {
     right: auto;
     p {
         font-size: 1.1em;
+    } a:hover {
+        color: #20c596;
     }
 }
 .arrow {
@@ -516,15 +523,22 @@ body {
         height: 460px;
         margin-right: 0px;
         border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 1px 2px 0px #000000;
+        .about-overlay {
+            height: 460px;
+            border-radius: 0px 0px 0px 0px;
+        }
     }
     .factorial {
         margin-right: 0px;
         height: 460px;
         border-radius: 0px 0px 0px 0px;
-        margin-bottom: 20px;
-    }
-    .bio:hover, .factorial:hover {
-        border-radius: 0px 0px 0px 0px;
+        margin-bottom: 50px;
+        box-shadow: 0px 1px 2px 0px #000000;
+        .about-overlay {
+            height: 460px;
+            border-radius: 0px 0px 0px 0px;
+        }
     }
     .about-right-hand {
         float: left;
@@ -533,9 +547,13 @@ body {
     .skills {
         height: 800px;
         border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 1px 2px 0px #000000;
+        .about-overlay {
+            height: 800px;
+            border-radius: 0px 0px 0px 0px;
+        }
     }
-    .skills:hover {
-        border-radius: 0px 0px 0px 0px;
+    .skills {
         .about-skills {
             padding-left: 50px;
             padding-right: 50px;
@@ -558,7 +576,7 @@ body {
         } .one {
             margin-top: 70px;
             margin-bottom: 0px;
-        }  .four {
+        } .four {
             margin-top: 42px;
             margin-bottom: 0px;
             font-family: "Amatic SC";
@@ -623,6 +641,9 @@ body {
     }
     .skills {
         height: 860px;
+        .about-overlay {
+            height: 860px;
+        }
     }
     .contact-overlay {
         position: absolute;
@@ -676,13 +697,22 @@ body {
     .bio {
         height: 620px;
         line-height: 1.35;
+        .about-overlay {
+            height: 620px;
+        }
     }
     .factorial {
         height: 580px;
         line-height: 1.35;
+        .about-overlay {
+            height: 580px;
+        }
     }
     .skills {
         height: 950px;
+        .about-overlay {
+            height: 950px;
+        }
     }
     .contact-overlay {
         position: absolute;
@@ -710,13 +740,22 @@ body {
     .bio {
         height: 680px;
         line-height: 1.35;
+        .about-overlay {
+            height: 680px;
+        }
     }
     .factorial {
         height: 640px;
         line-height: 1.35;
+        .about-overlay {
+            height: 640px;
+        }
     }
     .skills {
         height: 1000px;
+        .about-overlay {
+            height: 1000px;
+        }
     }
     .dark-overlay {
         position: absolute;
@@ -730,7 +769,6 @@ body {
         } .one {
             margin-top: 50px;
         } .four {
-            margin-left: 17px;
             margin-top: 27px;
             font-size: 3.8em;
         }
