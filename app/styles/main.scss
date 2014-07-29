@@ -136,7 +136,7 @@ body {
         background-color: rgba(0, 0, 0, 0.1);
         border-radius: 0px 4px 4px 0px;
     } .light-overlay:hover {
-        background-color: rgba(32, 197, 150, 0.97);
+        background-color: rgba(32, 197, 150, 0.95);
         transition: all 0.1s ease-in-out;
         .project-text-container {
             display: block;
@@ -156,8 +156,9 @@ body {
         background-color: rgba(0, 0, 0, 0.1);
         border-radius: 4px 0px 0px 4px;
     } .light-overlay:hover {
-        background-color: rgba(32, 197, 150, 0.97);
+        background-color: rgba(32, 197, 150, 0.95);
         transition: all 0.1s ease-in-out;
+        text-shadow: 0px 0px 10px #1a9e78;
         .project-text-container {
             display: block;
         }
@@ -217,6 +218,7 @@ body {
 .project-title-hover {
     font-size: 2.2em;
     display: inline;
+    text-shadow: 0px 0px 0px #1a9e78;
 }
 .short-description {
     margin-left: 3px;
@@ -249,6 +251,7 @@ body {
     font-size: 1.05em;
     background-color: rgba(255, 255, 255, 0.87);
     color: #20c596;
+    text-shadow: 0px 0px 0px #1a9e78;
 }
 .project-button:hover {
     background-color: rgba(26, 158, 120, 1.0);
@@ -292,6 +295,7 @@ body {
     border-radius: 0px 4px 4px 0px;
     box-shadow: 0px 2px 5px -1px #000000;
     .about-overlay {
+        text-shadow: 0px 0px 10px #1a9e78;
         height: 480px;
         border-radius: 0px 4px 4px 0px;
         background-color: rgba(32, 197, 150, 0.87);
@@ -328,6 +332,7 @@ body {
         height: 440px;
         border-radius: 0px 4px 4px 0px;
         background-color: rgba(32, 197, 150, 0.87);
+        text-shadow: 0px 0px 10px #1a9e78;
     } .about-detail {
         text-align: center;
         font-size: 1.1em;
@@ -366,6 +371,7 @@ body {
         padding-top: 30px;
         padding-left: 80px;
         padding-right: 80px;
+        text-shadow: 0px 0px 10px #1a9e78;
         .skills-title {
             font-size: 1.5em;
             margin-bottom: 50px;
