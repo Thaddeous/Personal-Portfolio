@@ -60,6 +60,9 @@ body {
     height: 800px;
     box-shadow: 0px 2px 5px -1px #000000;
     background-image: url("http://trafficsafetyguy.com/wp-content/uploads/2013/01/Road__Sunrise_C.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: top center;
@@ -71,6 +74,9 @@ body {
     height: 190px;
     border-radius: 100%;
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/thaddeous2.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .dark-overlay {
@@ -89,12 +95,15 @@ body {
         margin-top: 30px;
         margin-bottom: 0px;
     }  .four {
+        margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 0px;
-        margin-left: 17px;
         font-family: "Amatic SC";
         font-size: 13.0em;
         letter-spacing: 20px;
+        span {
+            letter-spacing: 0px;
+        }
     }
 }
 //    ___             _         __    
@@ -166,43 +175,73 @@ body {
 }
 .project-one {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at25540PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-two {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123607AM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; 
 }
 .project-three {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at11426PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-four {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at32135PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-five {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at24237AM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-six {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at54135PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-seven {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at75007PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; 
 }
 .project-eight {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at61636PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .project-nine {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at41300AM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; 
     margin-bottom: 0px;
 }
 .project-ten {
     background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at60710PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover; 
     margin-bottom: 0px;
 }
@@ -286,6 +325,9 @@ body {
 // ============================
 .bio {
     background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: top center;
@@ -319,6 +361,9 @@ body {
 // ============================
 .factorial {
     background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: top center;
@@ -352,6 +397,9 @@ body {
 // ============================
 .skills {
     background-image: url("http://cdn.twitrcovers.com/wp-content/uploads/2013/07/Sunrise-Mountains-Clouds-l.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: top center;
@@ -407,6 +455,9 @@ body {
             margin: 0px auto;
             border-radius: 4px;
             background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/thaddeous2.png");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
             background-size: cover;
         } .pdf-button {
             padding-top: 8px;
@@ -427,6 +478,9 @@ body {
     height: 715px;
     box-shadow: 0px 2px 5px -1px #000000;
     background-image: url("http://travellife.com.ua/wp-content/uploads/2012/03/241881_derevo_derevya_doroga_dorogi_vecher_nebo_put_puti__1920x1200_www.GdeFon.ru_.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: top center;
@@ -604,30 +658,51 @@ body {
     }
     .project-one {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at13303AM-1.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-two {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at123414AM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover; 
     }
     .project-three {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-24at11326PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-four {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at74550PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-five {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at81615PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-six {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at75312PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-seven {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at82013PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover; 
     }
     .project-eight {
@@ -636,10 +711,16 @@ body {
     }
     .project-nine {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at75818PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .project-ten {
         background-image: url("http://i120.photobucket.com/albums/o166/theig072/Portfolio/ScreenShot2014-07-25at80807PM.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     .about-details {
