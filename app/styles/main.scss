@@ -665,6 +665,11 @@ body {
             padding-right: 15px;
         }
     }
+    .contact-icons {
+        .hide {
+            font-size: 0.9em;
+        }
+    }
     .large {
         font-size: 3.3em;
     }
@@ -741,7 +746,7 @@ body {
 
 @media screen and (max-width:400px) {
     .project {
-        height: 500px;
+        height: 450px;
     }
     .bio {
         height: 680px;
@@ -788,9 +793,14 @@ body {
         background-color: rgba(0, 0, 0, 0.40);
         text-align: center;
         .fa {
-            font-size: 2.5em;
-            padding-left: 5px;
-            padding-right: 5px;
+            font-size: 3.0em;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+    }
+    .contact-icons {
+        .hide {
+            font-size: 0.7em;
         }
     }
 }
